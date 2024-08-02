@@ -122,7 +122,7 @@ body{
     height: 100%;
     z-index: -1;
 }
-
+@media (max-width: 550px) {
 .background-image{
     position: absolute;
     top: 0;
@@ -132,7 +132,7 @@ body{
     object-fit: cover;
     z-index: -2;
 }
-
+}
 .background::before, .background::after{
     content: '';
     position: absolute;
@@ -175,7 +175,7 @@ body{
 
 .explore-section{
     position: relative;
-    width: 100%;
+    width: 1500px;
     padding: 80px 10vw;
     color: #fff;
 }
@@ -269,6 +269,7 @@ body{
 
 .services-section{
     color: #fff;
+	 width: 1500px;
     padding: 80px 10vw;
 }
 
@@ -373,7 +374,7 @@ body{
     display: flex;
     padding: 0 10vw;
     align-items: center;
-    width: 100%;
+    width: 1500px;
     height: 100vh;
     gap: 30px;
 }
@@ -447,7 +448,7 @@ body{
 }
 
 .footer{
-    width: 100%;
+    width: 1600px;
     padding: 100px 10vw;
     background: #000;
     display: flex;
